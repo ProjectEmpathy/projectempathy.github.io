@@ -1,0 +1,12 @@
+- name: What's New
+  url: /whatsnew/
+  slugUrl: /whatsnew/
+
+- name: About
+  url: /about/
+  slugUrl: /about/
+
+- name: Stores
+  url: /store/
+  slugUrl: /store/
+
