@@ -24,9 +24,23 @@
 <script type="text/javascript" src="https://code.jquery.com/ui/1.9.1/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="/js/scrollReveal.min.js"></script>
+<script type="text/javascript" src="/js/jquery.stellar.js"></script>
 
 <script type="text/javascript">
   window.sr = new scrollReveal();
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $.stellar({
+      horizontalScrolling: false,
+      scrollProperty: 'scroll',
+      positionProperty: 'position',
+      responsive: true,
+      hideDistantElements: false,
+      horizontalOffset: 0,
+      verticalOffset: 0
+    });
+  });
 </script>
 {{ page.javascripts }}
 
