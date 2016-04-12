@@ -13,9 +13,6 @@
                     <p>2: The action of understanding, being aware sensitive to, and vicariously experiencing the feelings, thoughts, and experience of another of either the past or present without having the feelings, thoughts, and experience fully communicated in an objectively explicit manner, also: the capacity for this.</p>
                 </div>
             </div>
-            <div class="">
-
-            </div>
 
             <div class="section-header">
                 <h1 class="section-text text-center stylized" data-sr="wait 0.2s">Empathy =/= Sympathy</h1>
@@ -45,13 +42,49 @@
             </div>
             <div class="character-center">
                 <div class="character-center-container">
-                    <span data-stellar-ratio="0.5" class="stylized">Help Me :(</span>
+                    <!--<span data-stellar-ratio="0.5" class="stylized">Help Me :(</span>-->
                     <img data-stellar-ratio="0.5" src="/img/character/person-darkhole.png"/>
                 </div>
             </div>
         </div>
         <div class="scene-3">
-
+            <div class="text-container">
+                <h1 data-sr="wait 0.2s" class="text-center stylized">Rarely does an Empathic Response begin with "At Least."</h1>
+            </div>
+            <div class="content">
+                <h1 data-sr="wait 0.2s" class="stylized text-center">The Four Qualities of Empathy</h1>
+                <ol data-sr="wait 0.4s">
+                    <li>Perspective-Taking or the ability to take on the perspective of another.</li>
+                    <li>Recognize their perspective as truth.</li>
+                    <li>Staying out of judgement</li>
+                    <li>Recognising emotion in other people and communicating that.</li>
+                </ol>
+            </div>
+            <div class="section-header header">
+                <h1 data-sr="wait 0.2s" class="section-text stylized text-center">The Three Types of Empathy</h1>
+            </div>
+            <div class="empathy-type">
+                {% for empathyType in site.data.empathy-types %}
+                <div  data-sr="wait 0.2s" class="type-container">
+                    <span class="type-number">{{ empathyType.id }}</span>
+                    <span class="type-title">{{ empathyType.title }}</span>
+                    <span class="type-description">
+                        <ul style="list-style-image: url('/img/leaf-bullet.png');">
+                            <li>{{ empathyType.description }}</li>
+                        </ul>
+                    </span>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="section-header-2">
+                <h1 data-sr="wait 0.2s" class="section-text stylized text-center">Why is Empathy so Important?</h1>
+            </div>
+            <!--<div class="globe-container">-->
+                <!--<img src="/"/>-->
+            <!--</div>-->
+            <div class="section-quotes">
+                <span>Our richest experiences occur when we embrace emotional complexity and cultivate empathy.</span>
+            </div>
         </div>
         <div class="scene-4"></div>
         <div class="scene-5"></div>
