@@ -1,10 +1,10 @@
 <div id="scenario" class="container-fluid">
     <div class="row">
         <div class="scene-1">
-            <div class="header-section">
+            <div class="header-section floating-position">
                 <h1 class="header-title stylized text-center">Project Empathy</h1>
             </div>
-            <div class="content">
+            <div class="content floating-position">
                 <div class="col-md-5">
                     <h2 class="stylized content-title">What is Empathy</h2>
                 </div>
@@ -14,19 +14,19 @@
                 </div>
             </div>
 
-            <div class="section-header">
+            <div class="section-header floating-position">
                 <h1 class="section-text text-center stylized" data-sr="wait 0.2s">Empathy =/= Sympathy</h1>
             </div>
         </div>
 
         <div class="scene-2">
-            <div class="character-container">
+            <div class="character-container floating-position">
                 <div class="character-section col-md-6">
                     <div class="character-left">
                         <img data-sr="wait 0.2s" class="character center-block" src="/img/character/sympathizer-01.png"/>
                         <div class="message-content-left">
                             <img data-sr="wait 0.4s" src="/img/cloud/bubble-left.png" height="150px"/>
-                            <span class="stylized">At least you're able to afford therapy</span>
+                            <span class="stylized floating-position">At least you're able to afford therapy</span>
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@
                         <img data-sr="wait 0.4s" class="character center-block" src="/img/character/sympathizer-02.png"/>
                         <div class="message-content-right">
                             <img data-sr="wait 0.6s" src="/img/cloud/bubble-right.png" height="150px"/>
-                            <span class="stylized">At least you're not homeless.</span>
+                            <span class="stylized floating-position">At least you're not homeless.</span>
                         </div>
                     </div>
                 </div>
@@ -48,10 +48,10 @@
             </div>
         </div>
         <div class="scene-3">
-            <div class="text-container">
+            <div class="text-container floating-position">
                 <h1 data-sr="wait 0.2s" class="text-center stylized">Rarely does an Empathic Response begin with "At Least."</h1>
             </div>
-            <div class="content">
+            <div class="content floating-position">
                 <h1 data-sr="wait 0.2s" class="stylized text-center">The Four Qualities of Empathy</h1>
                 <ol data-sr="wait 0.4s">
                     <li>Perspective-Taking or the ability to take on the perspective of another.</li>
@@ -60,10 +60,10 @@
                     <li>Recognising emotion in other people and communicating that.</li>
                 </ol>
             </div>
-            <div class="section-header header">
+            <div class="section-header header floating-position">
                 <h1 data-sr="wait 0.2s" class="section-text stylized text-center">The Three Types of Empathy</h1>
             </div>
-            <div class="empathy-type">
+            <div class="empathy-type floating-position">
                 {% for empathyType in site.data.empathy-types %}
                 <div  data-sr="wait 0.2s" class="type-container">
                     <span class="type-number">{{ empathyType.id }}</span>
@@ -76,17 +76,40 @@
                 </div>
                 {% endfor %}
             </div>
-            <div class="section-header-2">
+            <div class="section-header-2 floating-position">
                 <h1 data-sr="wait 0.2s" class="section-text stylized text-center">Why is Empathy so Important?</h1>
             </div>
             <!--<div class="globe-container">-->
-                <!--<img src="/"/>-->
+            <!--<img src="/"/>-->
             <!--</div>-->
-            <div class="section-quotes">
-                <span>Our richest experiences occur when we embrace emotional complexity and cultivate empathy.</span>
+            <div class="section-quotes floating-position">
+                <span class="quotes" data-sr="wait 0.2s">Our richest experiences occur when we embrace emotional complexity and cultivate empathy. <span data-sr="wait 0.4s">-Jessica Weavers</span></span>
             </div>
         </div>
-        <div class="scene-4"></div>
-        <div class="scene-5"></div>
+        <div class="scene-4">
+            <div class="section-content-1 floating-position">
+                <h1 class="stylized text-center">The Dark Side of Empathy</h1>
+                <hr>
+                <ol>
+                    <li>Sociopaths can use this to their advantage.</li>
+                    <li>Can cause people to become emotionally overwhelmed.</li>
+                </ol>
+            </div>
+        </div>
+        <div class="scene-5">
+            <div class="section-text floating-position">
+                <h1 class="stylized text-cente">So how you become more empathic?</h1>
+            </div>
+            <div class="section-quotes floating-position">
+                <span class="quotes floating-position" data-sr="wait 0.2s">Step outisde of your world, and step in another and do it over and over.. <br/> <span data-sr="wait 0.4s">-Sam Richards (TEDxPSU)</span></span>
+            </div>
+            {% for empathic in site.data.empathic %}
+            <div class="content-container-{{ empathic.id }} floating-position">
+                <img src="{{ empathic.image }}" class="center-block" height="300px"/>
+                <h1 class="stylized">{{ empathic.id }}.{{ empathic.title }}</h1>
+                <p>{{ empathic.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
     </div>
 </div>

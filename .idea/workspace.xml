@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea2fa8ea-a350-41d1-ac39-eba0561ba450" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/leaf-bullet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gif/empathy-icon01.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gif/empathy-icon02.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gif/empathy-icon03.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/gif/empathy-icon04.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_data/empathic.yml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/_data/empathy-types.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_sass/home.sass" afterPath="$PROJECT_DIR$/_sass/home.sass" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/scenario.html" afterPath="$PROJECT_DIR$/_includes/scenario.html" />
@@ -28,38 +32,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="home.sass" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_sass/home.sass">
+      <file leaf-file-name="scenario.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/scenario.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38356164">
-              <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
+            <state vertical-scroll-proportion="-1.7037038">
+              <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
               <folding>
-                <element signature="e#117#1052#0" expanded="false" />
-                <element signature="e#1064#3042#0" expanded="false" />
+                <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#ul#0;n#span#2;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="empathy-types.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_data/empathy-types.yml">
+      <file leaf-file-name="empathic.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_data/empathic.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="172" selection-start-line="10" selection-start-column="172" selection-end-line="10" selection-end-column="172" />
+              <caret line="3" column="103" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scenario.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/scenario.html">
+      <file leaf-file-name="home.sass" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_sass/home.sass">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.703703">
-              <caret line="84" column="38" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="38" />
-              <folding>
-                <element signature="n#style#0;n#ul#0;n#span#2;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-14.37037">
+              <caret line="281" column="34" selection-start-line="281" selection-start-column="34" selection-end-line="281" selection-end-column="34" />
+              <folding />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="empathy-icon04.gif" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/img/gif/empathy-icon04.gif">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -86,6 +96,7 @@
         <option value="$PROJECT_DIR$/_sass/fonts.sass" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_data/empathy-types.yml" />
+        <option value="$PROJECT_DIR$/_data/empathic.yml" />
         <option value="$PROJECT_DIR$/_includes/scenario.html" />
         <option value="$PROJECT_DIR$/_sass/home.sass" />
       </list>
@@ -169,6 +180,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectempathy.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projectempathy.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gif" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -300,12 +329,12 @@
       <workItem from="1460351756919" duration="17376000" />
       <workItem from="1460420675934" duration="203000" />
       <workItem from="1460422858856" duration="555000" />
-      <workItem from="1460423576052" duration="1594000" />
+      <workItem from="1460423576052" duration="8508000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50997000" />
+    <option name="totallyTimeSpent" value="57911000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1366" y="0" width="1920" height="1080" extended-state="0" />
@@ -352,14 +381,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/_layouts/pages/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/home/scene.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_sass/home.sass">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -388,10 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -420,10 +457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -452,42 +486,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/pages/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/home/scene.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_sass/home.sass">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -645,13 +644,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/scrollReveal.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/background/PageDesign-p02-bg.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -699,19 +691,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/empathy-types.yml">
+    <entry file="file://$PROJECT_DIR$/js/scrollReveal.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/empathy-types.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23778072">
           <caret line="10" column="172" selection-start-line="10" selection-start-column="172" selection-end-line="10" selection-end-column="172" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/empathic.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="103" selection-start-line="3" selection-start-column="103" selection-end-line="3" selection-end-column="103" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/scenario.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.703703">
-          <caret line="84" column="38" selection-start-line="84" selection-start-column="24" selection-end-line="84" selection-end-column="38" />
+        <state vertical-scroll-proportion="-1.7037038">
+          <caret line="75" column="22" selection-start-line="75" selection-start-column="22" selection-end-line="75" selection-end-column="22" />
           <folding>
+            <element signature="n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#ul#0;n#span#2;n#div#0;n#div#3;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
@@ -719,13 +729,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_sass/home.sass">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38356164">
-          <caret line="214" column="14" selection-start-line="214" selection-start-column="14" selection-end-line="214" selection-end-column="14" />
-          <folding>
-            <element signature="e#117#1052#0" expanded="false" />
-            <element signature="e#1064#3042#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="-14.37037">
+          <caret line="281" column="34" selection-start-line="281" selection-start-column="34" selection-end-line="281" selection-end-column="34" />
+          <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/gif/empathy-icon04.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
