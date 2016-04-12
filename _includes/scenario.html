@@ -88,9 +88,9 @@
         </div>
         <div class="scene-4">
             <div class="section-content-1 floating-position">
-                <h1 class="stylized text-center">The Dark Side of Empathy</h1>
-                <hr>
-                <ol>
+                <h1 data-sr="wait 0.2s" class="stylized text-center">The Dark Side of Empathy</h1>
+                <hr data-sr="wait 0.3s">
+                <ol data-sr="wait 0.4s">
                     <li>Sociopaths can use this to their advantage.</li>
                     <li>Can cause people to become emotionally overwhelmed.</li>
                 </ol>
@@ -98,14 +98,14 @@
         </div>
         <div class="scene-5">
             <div class="section-text floating-position">
-                <h1 class="stylized text-cente">So how you become more empathic?</h1>
+                <h1 data-sr="wait 0.2s" class="stylized text-cente">So how you become more empathic?</h1>
             </div>
             <div class="section-quotes floating-position">
                 <span class="quotes floating-position" data-sr="wait 0.2s">Step outisde of your world, and step in another and do it over and over.. <br/> <span data-sr="wait 0.4s">-Sam Richards (TEDxPSU)</span></span>
             </div>
             {% for empathic in site.data.empathic %}
             <div class="content-container-{{ empathic.id }} floating-position">
-                <img src="{{ empathic.image }}" class="center-block" height="300px"/>
+                <img data-sr="wait 0.2s" src="{{ empathic.image }}" class="center-block" height="300px"/>
                 <h1 class="stylized">{{ empathic.id }}.{{ empathic.title }}</h1>
                 <p>{{ empathic.description }}</p>
             </div>
